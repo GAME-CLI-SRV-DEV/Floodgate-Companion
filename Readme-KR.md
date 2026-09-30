@@ -108,6 +108,7 @@ Floodgate Companion은 베드락 유저 UUID, 유저네임을 Floodgate 표준 �
 | Username | UUID | Connected From | Skin |
 |-|-|-|-|
 |.MinuteLoby|00000000-0000-0000-0009-01fc0acf49f9|MinekubeConnect+Minecraft4Windows|<img width="180" height="191" alt="image" src="https://github.com/user-attachments/assets/8cce1ef7-531e-4d0b-b6d1-c6503b119b27" />
+
 로 되돌아옵니다.
 
 Tebex를 사용하시려면 유저네임을 Minekube 유저네임 사용으로 변경하십시오. 다만 대한민국에서는 Tebex보다는 사업자등록을 권장하고 있습니다.
