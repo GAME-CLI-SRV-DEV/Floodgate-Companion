@@ -28,53 +28,22 @@ Bedrock UI를 사용하시려면 Geyser와 Floodgate가 설치되어있어야 �
 
 이 플러그인을 설치하여 해결할 수 있습니다.
 
-## 최초 서버 플레이 시
+## 서버 참여
 ```
 [00:08:12 INFO]: [Geyser-Spigot] 플레이어가 사용자명 MinuteLoby (1234)(으)로 연결했습니다.
 [00:08:12 INFO]: [Geyser-Spigot] MinuteLoby (MinuteLoby로 로그인) (이)가 Java 서버에 접속했습니다
 [00:08:12 INFO]: [FloodgateCompanion] MinuteLoby님의 XUID는 2535456815139321입니다. 연동 상태 확인 중입니다...
-[00:08:12 INFO]: [FloodgateCompanion] 연동 확인! 포켓에디션 데이터와 자바에디션 데이터를 생성합니다.
-[00:08:12 INFO]: [FloodgateCompanion] 자바에디션: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / 포켓에디션: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
-[00:08:12 INFO]: [FloodgateCompanion] 유저 선택 대기 중입니다...
-```
-## 베드락 데이터만 있을 시
-```
-[00:08:12 INFO]: [Geyser-Spigot] 플레이어가 사용자명 MinuteLoby (1234)(으)로 연결했습니다.
-[00:08:12 INFO]: [Geyser-Spigot] MinuteLoby (MinuteLoby로 로그인) (이)가 Java 서버에 접속했습니다
-[00:08:12 INFO]: [FloodgateCompanion] MinuteLoby님의 XUID는 2535456815139321입니다. 연동 상태 확인 중입니다...
-[00:08:12 INFO]: [FloodgateCompanion] 연동 확인! 포켓에디션 데이터와 자바에디션 데이터를 생성합니다.
-[00:08:12 INFO]: [FloodgateCompanion] 포켓에디션 데이터가 존재합니다! 자바에디션 데이터만 생성합니다.
-[00:08:12 INFO]: [FloodgateCompanion] 자바에디션: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / 포켓에디션: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
-[00:08:12 INFO]: [FloodgateCompanion] 유저 선택 대기 중입니다...
-```
-## 자바 데이터만 있을 시
-```
-[00:08:12 INFO]: [Geyser-Spigot] 플레이어가 사용자명 MinuteLoby (1234)(으)로 연결했습니다.
-[00:08:12 INFO]: [Geyser-Spigot] MinuteLoby (MinuteLoby로 로그인) (이)가 Java 서버에 접속했습니다
-[00:08:12 INFO]: [FloodgateCompanion] MinuteLoby님의 XUID는 2535456815139321입니다. 연동 상태 확인 중입니다...
-[00:08:12 INFO]: [FloodgateCompanion] 연동 확인! 포켓에디션 데이터와 자바에디션 데이터를 생성합니다.
-[00:08:12 INFO]: [FloodgateCompanion] 자바에디션 데이터가 존재합니다! 포켓에디션 데이터만 생성합니다.
-[00:08:12 INFO]: [FloodgateCompanion] 자바에디션: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / 포켓에디션: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
-[00:08:12 INFO]: [FloodgateCompanion] 유저 선택 대기 중입니다...
-```
-## 두 데이터 모두 존재할 경우
-```
-[00:08:12 INFO]: [Geyser-Spigot] 플레이어가 사용자명 MinuteLoby (1234)(으)로 연결했습니다.
-[00:08:12 INFO]: [Geyser-Spigot] MinuteLoby (MinuteLoby로 로그인) (이)가 Java 서버에 접속했습니다
-[00:08:12 INFO]: [FloodgateCompanion] MinuteLoby님의 XUID는 2535456815139321입니다. 연동 상태 확인 중입니다...
-[00:08:12 INFO]: [FloodgateCompanion] 연동 확인! 포켓에디션 데이터와 자바에디션 데이터를 생성합니다.
-[00:08:12 INFO]: [FloodgateCompanion] 에디션 데이터가 모두 존재합니다! 데이터 생성 과정을 건너뜁니다.
-[00:08:12 INFO]: [FloodgateCompanion] 자바에디션: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / 포켓에디션: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
+[00:08:12 INFO]: [FloodgateCompanion] 연동 확인! (연동된 JE 계정은 Soji_Lab 입니다.)
+[00:08:12 INFO]: [FloodgateCompanion] JE: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / BE: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
 [00:08:12 INFO]: [FloodgateCompanion] 유저 선택 대기 중입니다...
 ```
 
 ## 데이터 선택 확인 (Java)
 ```
-[00:08:12 INFO]: [FloodgateCompanion] 연동 확인! 포켓에디션 데이터와 자바에디션 데이터를 생성합니다.
-[00:08:12 INFO]: [FloodgateCompanion] 에디션 데이터가 모두 존재합니다! 데이터 생성 과정을 건너뜁니다.
-[00:08:12 INFO]: [FloodgateCompanion] 자바에디션: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / 포켓에디션: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
+[00:08:12 INFO]: [FloodgateCompanion] 연동 확인!
+[00:08:12 INFO]: [FloodgateCompanion] JE: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / BE: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
 [00:08:12 INFO]: [FloodgateCompanion] 유저 선택 대기 중입니다...
-[00:08:14 INFO]: [FloodgateCompanion] MinuteLoby님이 자바 에디션을 선택했습니다. Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) 계정으로 로그인합니다.
+[00:08:14 INFO]: [FloodgateCompanion] MinuteLoby님이 Java Edition 로그인을 선택했습니다. Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) 계정으로 로그인합니다.
 [00:08:14 INFO]: [floodgate] Soji_Lab(으)로 로그인된 Floodgate 플레이어가 참여했습니다 (UUID: 86c00938-9011-43ee-9a46-14fc714840d3}
 [00:08:14 INFO]: Soji_Lab[/???.???.???.???:0] logged in with entity id 123 45 678 at ([minecraft:overworld])
 [00:08:14 INFO]: 입장 | [자바에디션유저]소지님이 입장했습니다.
@@ -82,20 +51,17 @@ Bedrock UI를 사용하시려면 Geyser와 Floodgate가 설치되어있어야 �
 
 ## 데이터 선택 확인 (Bedrock)
 ```
-[00:08:12 INFO]: [FloodgateCompanion] 연동 확인! 포켓에디션 데이터와 자바에디션 데이터를 생성합니다.
-[00:08:12 INFO]: [FloodgateCompanion] 에디션 데이터가 모두 존재합니다! 데이터 생성 과정을 건너뜁니다.
+[00:08:12 INFO]: [FloodgateCompanion] 연동 확인!
 [00:08:12 INFO]: [FloodgateCompanion] 자바에디션: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / 포켓에디션: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
 [00:08:12 INFO]: [FloodgateCompanion] 유저 선택 대기 중입니다...
-[00:08:14 INFO]: [FloodgateCompanion] MinuteLoby님이 포켓 에디션을 선택했습니다. .MinuteLoby(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) 계정으로 로그인합니다.
+[00:08:14 INFO]: [FloodgateCompanion] MinuteLoby님이 Bedrock Edition 로그인을 선택했습니다. .MinuteLoby(UUID: 00000000-0000-0000-0009-01fc0acf49f9) 계정으로 로그인합니다.
 [00:08:14 INFO]: [floodgate] .MinuteLoby(으)로 로그인된 Floodgate 플레이어가 참여했습니다 (UUID: 00000000-0000-0000-0009-01fc0acf49f9}
 [00:08:14 INFO]: .MinuteLoby[/???.???.???.???:0] logged in with entity id 123 45 678 at ([minecraft:overworld])
 [00:08:14 INFO]: 입장 | [포켓에디션유저]소지님이 입장했습니다.
 ```
 # MinekubeConnect 지원
-> [!CAUTION]
-> 내부 시스템 제약으로 인해 해당 기능은 아직 사용 불가합니다(저희 테스트 서버는 마인큐브 사용시 계정 연동을 의무화합니다.).
 
-Floodgate Companion은 베드락 유저 UUID, 유저네임을 Floodgate 표준 양식으로 변경합니다.
+ConnectCompanion은 베드락 유저 UUID, 유저네임을 Floodgate 표준 양식으로 변경합니다.
 
 예제:
 
@@ -111,4 +77,18 @@ Floodgate Companion은 베드락 유저 UUID, 유저네임을 Floodgate 표준 �
 
 로 되돌아옵니다.
 
-Tebex를 사용하시려면 유저네임을 Minekube 유저네임 사용으로 변경하십시오. 다만 대한민국에서는 Tebex보다는 사업자등록을 권장하고 있습니다.
+```
+[00:08:12 INFO]: [ConnectCompanion] /???.???.???.???에서 Connect 접속을 시도하였습니다!
+[00:08:12 INFO]: [ConnectCompanion] Connect 이용 중인 플레이어가 PE 사용자명 MinuteLoby (1234)(으)로 연결했습니다.
+[00:08:12 INFO]: [ConnectCompanion] PE: MinuteLoby님의 XUID는 2535456815139321입니다. 호환 UUID(00000000-0000-0000-XUID-HEXADECVALUE)를 생성합니다.
+[00:08:12 INFO]: [FloodgateCompanion] 연동 확인! (연동된 JE 계정은 Soji_Lab 입니다.)
+[00:08:12 INFO]: [FloodgateCompanion] JE: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / BE: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
+[00:08:12 INFO]: [FloodgateCompanion] 유저 선택 대기 중입니다...
+[00:08:12 INFO]: [FloodgateCompanion] 연동 확인!
+[00:08:12 INFO]: [FloodgateCompanion] 자바에디션: Soji_Lab(UUID: 86c00938-9011-43ee-9a46-14fc714840d3) / 포켓에디션: .MinuteLoby (UUID: 00000000-0000-0000-0009-01fc0acf49f9)
+[00:08:12 INFO]: [FloodgateCompanion] 유저 선택 대기 중입니다...
+[00:08:14 INFO]: [FloodgateCompanion] MinuteLoby님이 Bedrock Edition 로그인을 선택했습니다. .MinuteLoby(UUID: 00000000-0000-0000-0009-01fc0acf49f9) 계정으로 로그인합니다.
+[00:08:14 INFO]: [floodgate] .MinuteLoby(으)로 로그인된 Floodgate 플레이어가 참여했습니다 (UUID: 00000000-0000-0000-0009-01fc0acf49f9}
+[00:08:14 INFO]: .MinuteLoby[/???.???.???.???:0] logged in with entity id 123 45 678 at ([minecraft:overworld])
+[00:08:14 INFO]: 입장 | [포켓에디션유저]소지님이 입장했습니다.
+```
